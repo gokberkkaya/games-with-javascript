@@ -1,0 +1,91 @@
+body {
+    background-color: #23272A;
+    font-family: 'Odibee Sans', sans-serif;
+    font-weight: 400;
+    color:white;
+}
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin-top: 10vh;
+}
+#result {
+    font-size: 3em;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 5vh;
+    border: 2px solid white;
+}
+.hands {
+    border: 4px solid white;
+    border-radius: 50%;
+    padding: 1.5em;
+    margin: .5em;
+    cursor: pointer;
+}
+
+.hands:hover {
+    border: 4px solid #A9A9A9;
+    transition: .2s;
+}
+
+.win {
+    border: 4px solid #ADFF2F !important;
+    box-shadow:0px 0px 10px #ADFF2F;
+}
+
+.lose {
+    border: 4px solid #DC143C !important;
+    box-shadow:0px 0px 10px #DC143C;
+}
+
+.lose:hover {
+    border: 4px solid #DC143C;
+}
+
+.win:hover {
+    border: 4px solid #ADFF2F;
+}
+
+#computerTurn {
+    border: 4px solid #1E90FF;
+    border-radius: 10%;
+    padding: 1.5em;
+}
+
+.pcChoose {
+    border: 4px solid #87CEFA ;
+    box-shadow:0px 0px 5px #87CEFA;
+}
+
+.all-hands {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#computer {
+    display: flex;
+    align-items: center;
+    margin-right: 8rem;
+}
+.texts {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 2em;
+    margin-bottom: 1.5vh;
+}
+.pcText {
+    padding-left: 1.2rem;
+    color: #1E90FF;
+}
+.youText {
+    padding-left: 10rem;
+}
+.scoreBoard {
+    text-align: center;
+    font-size: 10em;
+
+
+}

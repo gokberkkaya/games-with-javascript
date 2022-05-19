@@ -1,1 +1,2 @@
-# games-with-javascript
+# Games with Javascript
+
