@@ -2,7 +2,7 @@
 
 That's classic. No need to tell :)
 
-![beginning](beginning.jpg)
-![win](win.jpg)
-![lose](lose.jpg)
-![scoreless](scoreless.jpg)
+<img src="beginning.jpg" width="400" height="300">
+<img src="win.jpg" width="400" height="300">
+<img src="lose.jpg" width="400" height="300">
+<img src="scoreless.jpg" width="400" height="300">
