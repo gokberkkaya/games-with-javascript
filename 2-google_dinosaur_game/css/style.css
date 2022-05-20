@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#scoreAndTitle {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    width: 900px;
+    height: 70px;
+    text-align: center;
+    align-items: flex-end;
+    color: gray;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 1em;
+}
+#score {
+    font-size: 2.5em;
+}
+#title {
+    font-size: 1.5em;
+}
+#restart {
+    font-size: .7em;
+}
+
+#container {
+    width: 750px;
+    height: 300px;
+}
+
+#ground {
+    width: 900px;
+    height: 10px;
+    margin-bottom: 100px;
+}
+#ground img{
+    width: 900px;
+    margin: auto;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+#player {
+    height: 75px;
+    width: 50px;
+    position: relative;
+    left: 100px;
+    top:242px;
+}
+
+.jump {
+    animation: jump 750ms infinite;
+}
+
+@keyframes jump {
+    0% {top: 242px}
+    50% {top:150px}
+    100% {top:242px}
+}
+
+#block {
+    height: 50px;
+    width: 30px;
+    position: relative;
+    left: 720px;
+    top:188px;
+    animation: block 2.5s infinite;
+}
+
+@keyframes block {
+    0% {left: 880px}
+    100% {left: -80px;}
+}
